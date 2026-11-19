@@ -1,0 +1,50 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Android
+**/android/.gradle/
+**/android/captures/
+**/android/local.properties
+**/android/**/key.properties
+*.jks
+*.keystore
+
+# iOS / macOS
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/macos/Pods/
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+
+# JavaScript / Next.js
+node_modules/
+.next/
+out/
+dist/
+.turbo/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
